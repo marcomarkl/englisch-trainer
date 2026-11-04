@@ -1,0 +1,7 @@
+# persönliche Notizen und Protokolle
+probefahrt.md
+notizen/
+
+# Werkzeuge und System
+node_modules/
+.DS_Store

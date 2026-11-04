@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "hinweis": "Eigene Formulierungen. Orientierung an veröffentlichten Business-Kannbeschreibungen und am Gemeinsamen europäischen Referenzrahmen (Companion Volume 2020); keine wörtlichen Übernahmen.",
+  "stufen": [
+    {
+      "nr": 1,
+      "name": "Sich und die eigene Rolle vorstellen",
+      "niveau": "A2",
+      "kann": "Ich kann mich, meine Rolle und mein Team in einfachen Sätzen vorstellen und zurückfragen.",
+      "sitzt_wenn": "Der Lernende spricht etwa eine Minute über sich und seine Arbeit, ohne länger als ein paar Sekunden steckenzubleiben, und stellt mindestens eine Gegenfrage."
+    },
+    {
+      "nr": 2,
+      "name": "Small Talk mit Besuchern führen",
+      "niveau": "A2+",
+      "kann": "Ich kann Besucher begrüßen, nach Anreise und Befinden fragen und ein kurzes lockeres Gespräch am Laufen halten.",
+      "sitzt_wenn": "Der Lernende hält ein zweiminütiges Gespräch mit Besuch ohne Abbruch, nutzt Rettungssätze, wenn ihm ein Wort fehlt, und erzählt kurz von etwas Vergangenem."
+    },
+    {
+      "nr": 3,
+      "name": "Routine-Calls und Videocalls sicher führen",
+      "niveau": "B1",
+      "kann": "Ich kann einen Call eröffnen, technische Probleme ansprechen, ein bekanntes Thema besprechen und den Call mit nächsten Schritten beenden.",
+      "sitzt_wenn": "Der Lernende eröffnet und beendet einen gespielten Call selbstständig, fragt bei Unklarem höflich nach und fasst am Ende zwei nächste Schritte zusammen."
+    },
+    {
+      "nr": 4,
+      "name": "Im Meeting vorbereitet mitreden",
+      "niveau": "B1",
+      "kann": "Ich kann in einem Meeting zu einem Thema, auf das ich mich vorbereitet habe, meine Sicht sagen, kurz begründen und Rückfragen beantworten.",
+      "sitzt_wenn": "Der Lernende bringt im Rollenspiel zu einem vorbereiteten Thema eine Meinung mit Begründung ein und reagiert auf eine Rückfrage, ohne ins Deutsche zu wechseln."
+    },
+    {
+      "nr": 5,
+      "name": "Auf Dienstreise alles Nötige regeln",
+      "niveau": "B1",
+      "kann": "Ich kann an Flughafen, Hotel und im Restaurant das Nötige regeln, Probleme schildern und um Lösungen bitten.",
+      "sitzt_wenn": "Der Lernende löst im Rollenspiel ein Problem (z. B. Zimmer falsch, Flug verspätet) höflich und vollständig, ohne dass der Coach helfen muss."
+    },
+    {
+      "nr": 6,
+      "name": "Etwas kurz präsentieren und Fragen beantworten",
+      "niveau": "B1+",
+      "kann": "Ich kann ein Thema aus meiner Arbeit in zwei bis drei Minuten geordnet vorstellen und danach Fragen dazu beantworten.",
+      "sitzt_wenn": "Der Lernende präsentiert ein Thema mit Einleitung, zwei bis drei Punkten und Schluss und beantwortet zwei Fragen dazu verständlich."
+    },
+    {
+      "nr": 7,
+      "name": "Ein Meeting selbst leiten",
+      "niveau": "B1+/B2",
+      "kann": "Ich kann ein Meeting eröffnen, durch die Punkte führen, das Wort erteilen, abschweifende Beiträge zurückholen und Ergebnisse festhalten.",
+      "sitzt_wenn": "Der Lernende leitet ein gespieltes Meeting mit mehreren Teilnehmenden durch eine Agenda und schließt mit klaren Vereinbarungen."
+    },
+    {
+      "nr": 8,
+      "name": "Spontan widersprechen und begründen",
+      "niveau": "B2",
+      "kann": "Ich kann auch ohne Vorbereitung höflich widersprechen, meine Sicht begründen und auf Gegenargumente eingehen.",
+      "sitzt_wenn": "Der Lernende widerspricht im Rollenspiel einer unerwarteten Position höflich, nennt zwei Gründe und geht auf einen Einwand ein."
+    },
+    {
+      "nr": 9,
+      "name": "Auch im schnellen Gespräch dranbleiben und verhandeln",
+      "niveau": "B2",
+      "kann": "Ich kann einem schnellen Gespräch mit mehreren Personen folgen, mich einbringen und einfache Verhandlungen über Termine, Preise oder Aufgaben führen.",
+      "sitzt_wenn": "Der Lernende bleibt in einem zügigen Rollenspiel mit mehreren Stimmen am Ball und erreicht einen Kompromiss, ohne um Verlangsamung bitten zu müssen."
+    }
+  ]
+}

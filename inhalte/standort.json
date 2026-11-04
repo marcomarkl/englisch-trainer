@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "hinweis": "Unveränderlich. Szenario und Frage bleiben über alle Monate gleich, sonst sind die Standortbestimmungen nicht vergleichbar.",
+  "regel": "Erste Woche jedes Kalendermonats. Zusätzlich eine Nullmessung bei der ersten Fahrt (Coach) und beim ersten Start der App.",
+  "auto": {
+    "dauer_minuten": 5,
+    "szenario": "Ein neuer internationaler Kollege ist dem Team beigetreten. Der Lernende stellt sich vor, erzählt, was er beruflich macht und woran sein Team gerade arbeitet, berichtet von einem Erlebnis aus der letzten Woche und fragt den Kollegen nach seinem Hintergrund. Der Coach spielt den Kollegen, stellt zwei Rückfragen und bleibt dabei immer bei denselben Fragen.",
+    "rueckfragen": [
+      "What is the biggest challenge in your work at the moment?",
+      "What would you like to change in your team next year?"
+    ],
+    "beobachten": [
+      "Wie lange spricht der Lernende am Stück, bevor er stockt?",
+      "Wie oft wechselt er ins Deutsche?",
+      "Welche Rettungssätze nutzt er?",
+      "Welche wiederkehrenden Fehler treten auf?"
+    ]
+  },
+  "app": {
+    "dauer_sekunden": 60,
+    "frage": "Tell me about your job and what you are working on this week.",
+    "frage_de": "Erzähl von deinem Job und woran du diese Woche arbeitest."
+  }
+}

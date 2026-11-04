@@ -1,0 +1,23 @@
+:root {
+  --bg: #f6f5f1; --fl: #ffffff; --tx: #1f1e1c; --tx2: #5f5e5a; --rand: #d3d1c7; --akzent: #185fa5; --ok: #3b6d11; --warn: #854f0b; --fehler: #a32d2d;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #1b1b1a; --fl: #262624; --tx: #f1efe8; --tx2: #b4b2a9; --rand: #444441; --akzent: #85b7eb; --ok: #97c459; --warn: #ef9f27; --fehler: #f09595; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--tx); font: 17px/1.5 -apple-system, system-ui, sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: max(16px, env(safe-area-inset-top)) 16px 48px; }
+h1 { font-size: 24px; font-weight: 600; margin: 8px 0; }
+h2 { font-size: 18px; font-weight: 600; margin: 0 0 8px; }
+section { background: var(--fl); border: 1px solid var(--rand); border-radius: 14px; padding: 14px 16px; margin: 14px 0; }
+.leise { color: var(--tx2); font-size: 15px; margin: 4px 0 10px; }
+label { display: block; font-size: 15px; color: var(--tx2); margin: 8px 0; }
+input:not([type=checkbox]), select { display: block; width: 100%; margin-top: 4px; font: inherit; color: var(--tx); background: var(--bg); border: 1px solid var(--rand); border-radius: 10px; padding: 10px 12px; }
+button { font: inherit; font-weight: 600; min-height: 48px; width: 100%; margin-top: 8px; border-radius: 12px; border: 0; background: var(--akzent); color: #fff; }
+@media (prefers-color-scheme: dark) { button { color: #042c53; } }
+output { display: block; margin-top: 10px; font-size: 15px; white-space: pre-wrap; }
+table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 14px; }
+th, td { text-align: left; padding: 4px 6px; border-top: 1px solid var(--rand); }
+pre { white-space: pre-wrap; font-size: 13px; color: var(--tx2); }
+.ok { color: var(--ok); } .warn { color: var(--warn); } .fehler { color: var(--fehler); }

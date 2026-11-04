@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "hinweis": "Geordnete Grammatik-Leiter. Neue Muster kommen erst, wenn die früheren sitzen. Stand A1a: die ersten 3 von etwa 12 bis 15 Mustern; der Rest folgt in A1b.",
+  "muster": [
+    {
+      "nr": 1,
+      "name": "Fragen mit do, does, did",
+      "erklaerung": "Hat der Satz kein anderes Hilfswort (is/are/was, can/could, will, have + Partizip), braucht die Frage do, does oder did vorne; das eigentliche Verb bleibt dann in der Grundform.",
+      "eselsbruecke": "Türöffner-Regel: Ohne Türöffner keine Frage. „You have time?“ klingt wie eine Feststellung. „DO you have time?“ öffnet die Tür. Und hinter der Tür steht das Verb nackt: „Does she know?“, nicht „Does she knows?“.",
+      "beispiele": [
+        "Do you have a minute?",
+        "Does this work for you?",
+        "Did you get my email?",
+        "What does this word mean?"
+      ],
+      "typische_fehler": [
+        "„Know you the answer?“ statt „Do you know the answer?“",
+        "„What means this?“ statt „What does this mean?“",
+        "„Did you got my email?“ statt „Did you get my email?“"
+      ]
+    },
+    {
+      "nr": 2,
+      "name": "Höfliche Bitten mit could, would und I'd like",
+      "erklaerung": "Bitten werden im Business-Englisch fast immer mit could, would oder I'd like weicher gemacht; direkte Formen wie „I want“ oder „Give me“ wirken unhöflich.",
+      "eselsbruecke": "Weichspüler-Wörter: Could, would und I'd like sind der Weichspüler für jede Bitte. „Send me the file“ ist ein Befehl, „Could you send me the file?“ ist eine Bitte. Merksatz: Ein Manager wäscht nie ohne Weichspüler.",
+      "beispiele": [
+        "Could you send me the file, please?",
+        "Would you mind repeating that?",
+        "I'd like to talk about the timeline.",
+        "Could we move the meeting to Friday?"
+      ],
+      "typische_fehler": [
+        "„I want the report today.“ statt „Could I have the report today, please?“",
+        "„I would like that you call me.“ statt „I'd like you to call me.“",
+        "„Can you give me …“ in heiklen Situationen statt „Could you …“"
+      ]
+    },
+    {
+      "nr": 3,
+      "name": "Vergangenes erzählen mit did und -ed",
+      "erklaerung": "Wenn etwas zu einem bestimmten, vergangenen Zeitpunkt passiert ist – gestern, letzte Woche, 2023 –, nimmt man die einfache Vergangenheit (worked, went, did), nicht „have done“.",
+      "eselsbruecke": "Zeitstempel-Regel: Steht ein Zeitstempel im Satz – yesterday, last week, in May, two days ago –, dann ist die Sache abgeschlossen und bekommt die einfache Vergangenheit. „I have seen him yesterday“ ist falsch, weil „yesterday“ ein Zeitstempel ist: „I saw him yesterday.“",
+      "beispiele": [
+        "We finished the project last month.",
+        "I met the client yesterday.",
+        "Did you talk to her last week?",
+        "We didn't have time on Monday."
+      ],
+      "typische_fehler": [
+        "„I have finished it yesterday.“ statt „I finished it yesterday.“",
+        "„Last week I have been in London.“ statt „Last week I was in London.“",
+        "„I didn't went there.“ statt „I didn't go there.“"
+      ]
+    }
+  ]
+}
