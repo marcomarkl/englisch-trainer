@@ -1,0 +1,224 @@
+{
+  "standdatum": "2026-11-04",
+  "schema": 1,
+  "hinweis": "Einzige Quelle für Coach und App. Nummern sind unveränderlich; Veraltetes bekommt status \"ruht\" und wird nicht gelöscht. Stand A1a: 5 Startbausteine.",
+  "bausteine": [
+    {
+      "nr": 1,
+      "name": "Zeit gewinnen und nachfragen",
+      "situation": "Rettungssätze",
+      "zielstufe": 1,
+      "muster": 1,
+      "laut": 1,
+      "status": "aktiv",
+      "wendungen": [
+        {
+          "en": "Let me think about that for a second.",
+          "de": "Lass mich kurz darüber nachdenken."
+        },
+        {
+          "en": "Sorry, could you say that again?",
+          "de": "Entschuldigung, kannst du das noch einmal sagen?"
+        },
+        {
+          "en": "Could you speak a little more slowly, please?",
+          "de": "Könntest du bitte etwas langsamer sprechen?"
+        },
+        {
+          "en": "What do you mean by that?",
+          "de": "Was meinst du damit?"
+        },
+        {
+          "en": "Just to make sure I understand: do you mean ...?",
+          "de": "Nur damit ich es richtig verstehe: Meinst du …?"
+        },
+        {
+          "en": "Good question. Let me get back to you on that.",
+          "de": "Gute Frage. Ich melde mich dazu bei dir."
+        }
+      ],
+      "beispiele_muster": [
+        "What do you mean by that?",
+        "Do you mean the new timeline?"
+      ],
+      "rollenspiel": "Eine Kollegin spricht schnell und benutzt Fachbegriffe. Der Lernende versteht nicht alles und nutzt mindestens drei Rettungssätze, statt zu schweigen oder ins Deutsche zu wechseln.",
+      "sprechfrage": "A colleague asks you a question that you cannot answer right now. What do you say?"
+    },
+    {
+      "nr": 2,
+      "name": "Umschreiben, wenn ein Wort fehlt",
+      "situation": "Rettungssätze",
+      "zielstufe": 1,
+      "muster": 1,
+      "laut": 4,
+      "status": "aktiv",
+      "wendungen": [
+        {
+          "en": "I don't know the word in English, but ...",
+          "de": "Ich kenne das Wort auf Englisch nicht, aber …"
+        },
+        {
+          "en": "It's a kind of ...",
+          "de": "Es ist eine Art …"
+        },
+        {
+          "en": "It's something you use to ...",
+          "de": "Das ist etwas, das man benutzt, um …"
+        },
+        {
+          "en": "It's similar to ..., but ...",
+          "de": "Es ist ähnlich wie …, aber …"
+        },
+        {
+          "en": "What's the word for ...?",
+          "de": "Wie heißt das Wort für …?"
+        },
+        {
+          "en": "In other words, ...",
+          "de": "Mit anderen Worten …"
+        }
+      ],
+      "beispiele_muster": [
+        "Do you know what I mean?",
+        "What do you call this in English?"
+      ],
+      "rollenspiel": "Der Coach nennt ein deutsches Wort aus dem Arbeitsalltag (zum Beispiel Lastenheft, Betriebsrat, Abschlagszahlung). Der Lernende erklärt es auf Englisch, ohne das englische Wort zu kennen, bis der Coach es errät.",
+      "sprechfrage": "Describe a tool or document you use at work without saying its name."
+    },
+    {
+      "nr": 3,
+      "name": "Sich und die eigene Rolle vorstellen",
+      "situation": "Small Talk",
+      "zielstufe": 1,
+      "muster": 1,
+      "laut": 2,
+      "status": "aktiv",
+      "wendungen": [
+        {
+          "en": "Hi, I'm ... Nice to meet you.",
+          "de": "Hallo, ich bin â¦ Freut mich."
+        },
+        {
+          "en": "I'm responsible for ...",
+          "de": "Ich bin verantwortlich für …"
+        },
+        {
+          "en": "I lead a team of ... people.",
+          "de": "Ich leite ein Team mit … Leuten."
+        },
+        {
+          "en": "We work closely with ...",
+          "de": "Wir arbeiten eng mit … zusammen."
+        },
+        {
+          "en": "I've been with the company for ... years.",
+          "de": "Ich bin seit … Jahren in der Firma."
+        },
+        {
+          "en": "What about you? What do you do?",
+          "de": "Und du? Was machst du?"
+        },
+        {
+          "en": "Nice to finally meet you in person.",
+          "de": "Schön, dich endlich persönlich kennenzulernen."
+        }
+      ],
+      "beispiele_muster": [
+        "What do you do?",
+        "Do you work with the sales team?"
+      ],
+      "rollenspiel": "Eine Besucherin aus einem Partnerunternehmen trifft den Lernenden zum ersten Mal persönlich. Beide stellen sich vor, der Lernende erklärt seine Rolle und fragt zurück.",
+      "sprechfrage": "Introduce yourself and your role to a new colleague."
+    },
+    {
+      "nr": 4,
+      "name": "Small Talk mit Besuchern",
+      "situation": "Small Talk",
+      "zielstufe": 2,
+      "muster": 3,
+      "laut": 3,
+      "status": "aktiv",
+      "wendungen": [
+        {
+          "en": "How was your trip?",
+          "de": "Wie war deine Anreise?"
+        },
+        {
+          "en": "Did you find us easily?",
+          "de": "Hast du uns gut gefunden?"
+        },
+        {
+          "en": "Is this your first time in ...?",
+          "de": "Bist du zum ersten Mal in …?"
+        },
+        {
+          "en": "Can I get you something to drink? Coffee, water?",
+          "de": "Darf ich dir etwas zu trinken bringen? Kaffee, Wasser?"
+        },
+        {
+          "en": "Let me show you around.",
+          "de": "Ich zeige dir kurz alles."
+        },
+        {
+          "en": "What did you do last weekend?",
+          "de": "Was hast du letztes Wochenende gemacht?"
+        },
+        {
+          "en": "We had a really good time there.",
+          "de": "Wir hatten dort eine richtig gute Zeit."
+        }
+      ],
+      "beispiele_muster": [
+        "Did you have a good flight?",
+        "We visited the plant last year."
+      ],
+      "rollenspiel": "Ein Besucher kommt am Empfang an. Der Lernende holt ihn ab und hält auf dem Weg zum Besprechungsraum zwei Minuten Small Talk, unter anderem über die Anreise und das letzte Wochenende.",
+      "sprechfrage": "Tell a visitor about something you did last weekend."
+    },
+    {
+      "nr": 5,
+      "name": "Videocall eröffnen",
+      "situation": "Telefon/Videocall",
+      "zielstufe": 3,
+      "muster": 2,
+      "laut": 5,
+      "status": "aktiv",
+      "wendungen": [
+        {
+          "en": "Hi everyone, can you hear me okay?",
+          "de": "Hallo zusammen, könnt ihr mich gut hören?"
+        },
+        {
+          "en": "Let me share my screen. Can you see it?",
+          "de": "Ich teile meinen Bildschirm. Könnt ihr ihn sehen?"
+        },
+        {
+          "en": "Let's wait one more minute for the others.",
+          "de": "Warten wir noch eine Minute auf die anderen."
+        },
+        {
+          "en": "Should we get started?",
+          "de": "Wollen wir anfangen?"
+        },
+        {
+          "en": "Today I'd like to talk about ...",
+          "de": "Heute möchte ich über … sprechen."
+        },
+        {
+          "en": "Could you mute your microphone, please?",
+          "de": "Könntest du bitte dein Mikrofon stummschalten?"
+        },
+        {
+          "en": "Sorry, the connection is bad. Could you repeat that?",
+          "de": "Entschuldigung, die Verbindung ist schlecht. Kannst du das wiederholen?"
+        }
+      ],
+      "beispiele_muster": [
+        "Could you share the agenda, please?",
+        "I'd like to start with a quick update."
+      ],
+      "rollenspiel": "Der Lernende eröffnet einen Videocall mit drei Teilnehmenden. Einer hat schlechte Verbindung, eine hat das Mikrofon an und Hintergrundgeräusche. Der Lernende begrüßt, regelt die Technik höflich und nennt das Thema.",
+      "sprechfrage": "Start a video call with your team and explain today's topic."
+    }
+  ]
+}

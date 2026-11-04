@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' blob:; worker-src 'self' blob:; style-src 'self'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self' https://api.anthropic.com https://*.api.cognitive.microsoft.com https://*.cognitiveservices.azure.com wss://*.stt.speech.microsoft.com https://*.stt.speech.microsoft.com wss://*.tts.speech.microsoft.com https://*.tts.speech.microsoft.com">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EN-Probe">
+  <meta name="color-scheme" content="light dark">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="probe.css">
+  <title>Machbarkeitsprobe</title>
+</head>
+<body>
+  <main>
+    <h1>Machbarkeitsprobe</h1>
+    <p class="leise">Testet auf dem iPhone, ob die Übungs-App so funktionieren kann. Als Homescreen-App öffnen: Teilen → „Zum Home-Bildschirm“.</p>
+    <p id="modus" class="leise"></p>
+
+    <section>
+      <h2>Schlüssel</h2>
+      <p class="leise">Bleiben nur auf diesem Gerät gespeichert.</p>
+      <label>Azure-Schlüssel (KEY 1)<input id="azureKey" type="password" autocomplete="off"></label>
+      <label>Azure-Region<input id="azureRegion" placeholder="westeurope" autocomplete="off"></label>
+      <label>Anthropic-Schlüssel<input id="anthropicKey" type="password" autocomplete="off"></label>
+      <button id="speichern">Speichern</button>
+    </section>
+
+    <section data-probe="1">
+      <h2>1 · Mikrofon</h2>
+      <p class="leise">Danach kurz in eine andere App wechseln, zurückkommen und erneut prüfen.</p>
+      <button id="p1">Mikrofon prüfen</button>
+      <output id="o1"></output>
+    </section>
+
+    <section data-probe="2">
+      <h2>2 · Bildschirm wach halten</h2>
+      <p class="leise">Danach eine Minute nicht berühren: Bleibt der Bildschirm an?</p>
+      <button id="p2">Wach halten</button>
+      <output id="o2"></output>
+    </section>
+
+    <section data-probe="3">
+      <h2>3 · Aussprache und Fehlerprobe</h2>
+      <label>Zielsatz (leer = ohne Zielsatz)<input id="zielsatz" value="Thank you, I think that's the right thing to do."></label>
+      <label>Diesen Versuch spreche ich
+        <select id="art"><option value="sauber">sauber</option><option value="falsch">absichtlich falsch</option></select>
+      </label>
+      <button id="p3">Sprechen und bewerten</button>
+      <output id="o3"></output>
+      <table id="t3"><thead><tr><th>Art</th><th>Mikrofon</th><th>Gesamt</th><th>Genauigkeit</th><th>auffällig</th></tr></thead><tbody></tbody></table>
+    </section>
+
+    <section data-probe="4">
+      <h2>4 · Sprachbefehle</h2>
+      <p class="leise">20 Sekunden lang einzelne Wörter sagen: again, next, pause, stop, explain – und zur Gegenprobe einen ganzen Satz mit „stop“ darin.</p>
+      <button id="p4">Zuhören starten</button>
+      <output id="o4"></output>
+    </section>
+
+    <section data-probe="5">
+      <h2>5 · Claude Haiku aus dem Browser</h2>
+      <button id="p5">Anfrage senden</button>
+      <output id="o5"></output>
+    </section>
+
+    <section data-probe="6">
+      <h2>6 · Mehrsprachige Stimme</h2>
+      <button id="p6">Deutscher Tipp mit englischem Wort</button>
+      <output id="o6"></output>
+    </section>
+
+    <section data-probe="7-10">
+      <h2>7–10 · Ablauf wie in der App</h2>
+      <p class="leise">Mustersatz → Signalton → du sprichst → Tipp. Danach „again“ oder „next“ sagen, ohne zu tippen. Einmal ohne Kopfhörer (7: Hört die App sich selbst?), einmal mit AirPods (8).</p>
+      <label><input id="gegenprobe" type="checkbox"> Gegenprobe zu 7: Erkennung schon während der Wiedergabe einschalten</label>
+      <button id="p7">Ablauf starten</button>
+      <output id="o7"></output>
+    </section>
+
+    <section data-probe="11">
+      <h2>11 · Unterbrechungen</h2>
+      <p class="leise">Während des Ablaufs Siri rufen oder sich anrufen lassen. Hier steht, was die App bemerkt hat.</p>
+      <output id="o11"></output>
+    </section>
+
+    <section>
+      <h2>Ergebnis</h2>
+      <button id="kopieren">Ergebnis kopieren</button>
+      <pre id="protokoll"></pre>
+    </section>
+  </main>
+  <script src="../vendor/speech-sdk.min.js"></script>
+  <script type="module" src="probe.js"></script>
+</body>
+</html>

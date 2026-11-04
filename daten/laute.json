@@ -1,0 +1,131 @@
+{
+  "standdatum": "2026-11-04",
+  "schema": 1,
+  "hinweis": "Typische Ausspracheprobleme deutscher Sprecher. Eselsbrücken sind vorab geschrieben; Coach und App wählen nur aus und erfinden keine neuen. ipa nennt die Laute im IPA-Format, wie Azure sie für en-US meldet.",
+  "laute": [
+    {
+      "nr": 1,
+      "name": "th",
+      "ipa": [
+        "θ",
+        "ð"
+      ],
+      "typischer_fehler": "Wird zu s, z oder d: „sink“ statt „think“, „zat“ oder „dat“ statt „that“.",
+      "eselsbruecke": "Kirschkern-Trick: Zungenspitze kurz zwischen die Zähne, als wolltest du einen Kirschkern ausspucken. Bei „think“ dann pusten, bei „this“ und „that“ dabei summen. Wer „sink“ sagt, geht unter – wer „think“ sagt, denkt.",
+      "beispielwoerter": [
+        "think",
+        "thank you",
+        "three",
+        "this",
+        "that",
+        "the",
+        "together"
+      ],
+      "uebungssatz": "Thank you, I think that's the right thing to do."
+    },
+    {
+      "nr": 2,
+      "name": "w und v",
+      "ipa": [
+        "w",
+        "v"
+      ],
+      "typischer_fehler": "w wird wie deutsches w (also v) gesprochen: „vee“ statt „we“, „wery“ statt „very“.",
+      "eselsbruecke": "W wie Kussmund: Lippen spitzen wie zum Küssen, kein Zahn berührt die Lippe – „we“, „well“, „work“. V wie Vampir: die oberen Zähne beißen sanft auf die Unterlippe – „very“, „video“. Bei „very well“ erst der Vampir, dann der Kuss.",
+      "beispielwoerter": [
+        "we",
+        "well",
+        "work",
+        "week",
+        "very",
+        "video",
+        "value"
+      ],
+      "uebungssatz": "We worked very well together last week."
+    },
+    {
+      "nr": 3,
+      "name": "weiche Wortenden",
+      "ipa": [
+        "b",
+        "d",
+        "ɡ",
+        "z",
+        "v"
+      ],
+      "typischer_fehler": "Deutsche Auslautverhärtung: am Wortende wird alles hart. „bat“ statt „bad“, „dock“ statt „dog“, „haff“ statt „have“.",
+      "eselsbruecke": "Lange Note vor weichem Ende: Im Deutschen wird der Hund zum „Hunt“, im Englischen nicht. Zieh den Vokal vor einem weichen Ende etwas länger – „baaad“, „neeed“ – dann bleibt das Ende von selbst weich.",
+      "beispielwoerter": [
+        "bad",
+        "good",
+        "need",
+        "job",
+        "made",
+        "have",
+        "plans",
+        "big"
+      ],
+      "uebungssatz": "We had a good day and made big plans."
+    },
+    {
+      "nr": 4,
+      "name": "summendes s",
+      "ipa": [
+        "z"
+      ],
+      "typischer_fehler": "Das s in „is“, „was“, „busy“, „please“ wird scharf gezischt wie in „Fluss“.",
+      "eselsbruecke": "Biene statt Schlange: In „is“, „was“, „busy“, „please“ und in vielen Mehrzahl-Endungen summt das s wie eine Biene (zzz). Leg die Hand an den Hals – du musst es vibrieren spüren.",
+      "beispielwoerter": [
+        "is",
+        "was",
+        "busy",
+        "please",
+        "because",
+        "business",
+        "easy",
+        "news"
+      ],
+      "uebungssatz": "Please excuse him. He is busy because he has a business meeting."
+    },
+    {
+      "nr": 5,
+      "name": "kurz oder lang",
+      "ipa": [
+        "i",
+        "ɪ",
+        "u",
+        "ʊ"
+      ],
+      "typischer_fehler": "Kurze und lange Vokale werden verwechselt: „ship“ und „sheep“, „fill“ und „feel“, „full“ und „fool“ klingen gleich.",
+      "eselsbruecke": "Mitte oder Miete: Kurz und locker wie in „Mitte“ – „it“, „ship“, „fill“. Lang und gespannt wie in „Miete“ – „eat“, „sheep“, „leave“. Genauso beim u: kurz wie in „Butter“ – „full“, „good“; lang wie in „Mut“ – „fool“, „food“. Vorsicht bei „sheet“ und „beach“: zu kurz gesprochen werden sie unanständig. Lieber schön lang.",
+      "beispielwoerter": [
+        "it",
+        "eat",
+        "fill",
+        "leave",
+        "full",
+        "fool",
+        "sheet",
+        "meeting"
+      ],
+      "uebungssatz": "Please fill out the sheet before you leave the meeting."
+    },
+    {
+      "nr": 6,
+      "name": "Wortbetonung",
+      "ipa": [],
+      "typischer_fehler": "Die Betonung liegt auf der falschen Silbe: „DEvelop“ statt „deVELop“, „comFORtable“ statt „COMfortable“, „colLEAGUE“ statt „COLleague“.",
+      "eselsbruecke": "Klopf-Trick: Klopf beim Sprechen mit dem Finger auf die betonte Silbe. Die betonte Silbe ist laut, lang und hoch – die anderen werden fast verschluckt. „deVELop“, „COMpany“, „COMfortable“, „aNAlysis“. Amerikanisch: „schedule“ beginnt mit „sk“ wie in „Skandal“, nicht mit „sch“.",
+      "beispielwoerter": [
+        "develop",
+        "company",
+        "comfortable",
+        "analysis",
+        "hotel",
+        "schedule",
+        "colleague"
+      ],
+      "uebungssatz": "Our company will develop a new analysis for our colleagues."
+    }
+  ]
+}
